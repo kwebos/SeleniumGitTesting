@@ -10,6 +10,9 @@ namespace SeleniumGitTesting
     {
         static void Main(string[] args)
         {
+            Page page = new Page();
+            page.GoTo();
+            Console.WriteLine(page.GetText());
         }
     }
 }
