@@ -15,8 +15,7 @@ namespace SeleniumGitTesting
 
         public void AnotherMethod()
         {
-            Console.WriteLine("one");
-            Console.WriteLine("two");
+            Console.WriteLine("one");           
         }
 
         public int? Bla()
