@@ -17,5 +17,10 @@ namespace SeleniumGitTesting
         {
 
         }
+
+        public int? Bla()
+        {
+            return null;
+        }
     }
 }
