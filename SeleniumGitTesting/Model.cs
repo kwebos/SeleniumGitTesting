@@ -12,5 +12,10 @@ namespace SeleniumGitTesting
         {
 
         }
+
+        public void AnotherMethod()
+        {
+
+        }
     }
 }
