@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +12,12 @@ namespace SeleniumGitTesting
     {
         static void Main(string[] args)
         {
-            Page page = new Page();
-            page.GoTo();
-            Console.WriteLine(page.GetText());
+            IWebDriver _driver = new ChromeDriver();
+            _driver.FindElement(By.Id("fef"));
+            IList<int> blref = null;
+
+            blref[2] = 3;
+            
         }
     }
 }
