@@ -16,6 +16,7 @@ namespace SeleniumGitTesting
         public int? Bla()
         {
             return null;
+            Console.WriteLine("two");
         }
     }
 }
