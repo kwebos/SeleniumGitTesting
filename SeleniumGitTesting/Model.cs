@@ -10,7 +10,7 @@ namespace SeleniumGitTesting
     {
         public void OtherMethod()
         {
-
+            Console.WriteLine();
         }
     }
 }
