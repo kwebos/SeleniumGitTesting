@@ -8,9 +8,7 @@ namespace SeleniumGitTesting
 {
     public class Model
     {
-        public void First()
-        {
-
-        }
+        //first comment
+        //second comment
     }
 }
