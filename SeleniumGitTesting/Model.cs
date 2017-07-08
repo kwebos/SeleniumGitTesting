@@ -8,7 +8,7 @@ namespace SeleniumGitTesting
 {
     public class Model
     {
-        public void DifferentMethod()
+        public void OtherMethod()
         {
 
         }
